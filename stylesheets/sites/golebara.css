@@ -1,0 +1,169 @@
+/***************************************************
+   HTML Element Styles
+ ***************************************************/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000;
+  background-color: #EEE;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #690;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #690;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #069;
+}
+
+#lpanel .heading {
+  background-color: #690;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#lpanel a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 15px;
+  background: url(/images/sites/golebara/b-1.gif) no-repeat center left;
+}
+
+#lpanel a:hover {
+  color: #690;
+  background: url(/images/sites/golebara/b-2.gif) no-repeat center left;
+}
+
+#lpanel a.selected {
+  color: #690;
+  background: url(/images/sites/golebara/b-2.gif) no-repeat center left;
+}
+
+#content a {
+  color: #690;
+  text-decoration: none;
+}
+
+#content a:hover {
+  color: #666;
+  background-color: #EEE;
+}
+
+/***************************************************
+   Site Layout Containers
+ ***************************************************/
+
+#header {
+  width: 748px;
+  height: 150px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  background: url(/images/sites/golebara/banner.jpg) no-repeat top left;
+}
+
+#header a {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 748px;
+  height: 150px;
+}
+
+#title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  background-color: #690;
+  color: #fff;
+}
+
+#title h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #690;
+  border-left: 5px solid #F90;
+  padding-left: 5px;
+}
+
+#title h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  border-left: 5px solid #FFF;
+  padding-left: 5px;
+}
+
+#path {
+  margin-left: 5px;
+  padding: 2px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  width: 763px;
+  margin-bottom: 5px;
+}
+
+#lpanel {
+  position: absolute;
+  top: 208px;
+  left: 0px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  width: 200px;
+}
+
+#lpanel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5em;
+}
+
+#lpanel ul ul,
+#lpanel ul ul ul {
+  padding-left: 1.5em;
+}
+
+#content {
+  width: 510px;
+  margin: 0;
+  margin-left: 242px;
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+}
+
+#footer {
+  width: 510px;
+  margin: 0;
+  margin-left: 242px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  text-align: right;
+}

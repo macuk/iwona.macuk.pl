@@ -1,0 +1,35 @@
+.icon {
+  padding-left: 20px;
+}
+
+.pdf {
+  background: url(/images/icons/pdf.gif) top left no-repeat;
+}
+
+.doc {
+  background: url(/images/icons/doc.gif) top left no-repeat;
+}
+
+.xls {
+  background: url(/images/icons/xls.gif) top left no-repeat;
+}
+
+.zip,
+.tgz,
+.gz {
+  background: url(/images/icons/zip.gif) top left no-repeat;
+}
+
+.pagination {
+  margin-top: 2em;
+}
+
+.pagination .disabled,
+.pagination .current,
+.pagination a {
+  margin-left: 0.8em;
+}
+
+.pagination .current {
+  font-weight: bold;
+}
