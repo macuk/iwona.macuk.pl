@@ -3,21 +3,21 @@
 }
 
 .pdf {
-  background: url(images/icons/pdf.gif) top left no-repeat;
+  background: url(/images/icons/pdf.gif) top left no-repeat;
 }
 
 .doc {
-  background: url(images/icons/doc.gif) top left no-repeat;
+  background: url(/images/icons/doc.gif) top left no-repeat;
 }
 
 .xls {
-  background: url(images/icons/xls.gif) top left no-repeat;
+  background: url(/images/icons/xls.gif) top left no-repeat;
 }
 
 .zip,
 .tgz,
 .gz {
-  background: url(images/icons/zip.gif) top left no-repeat;
+  background: url(/images/icons/zip.gif) top left no-repeat;
 }
 
 .pagination {
